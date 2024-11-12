@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <div class="personal-info">
+            <img src="./image/uzair.jpeg" alt="Profile Picture" id="profile-picture">
+            <h1 id="name">Uzair Bokra</h1>
+            <p id="contact">Email: uzair.bokra@gmail.com | Phone: 321-209-8021</p>
+        </div>
+
+        <div class="section" id="education-section">
+            <h2>Education</h2>
+            <p>Giaic University - Generative AI Engineer in Computer Science (2024 - 2025)</p>
+        </div>
+
+        <div class="section" id="skills-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>next.js</li>
+                <li>tailwind css</li>
+                <li>boostrap</li>
+                <li>CSS</li>
+                <li>HTML</li>
+            </ul>
+        </div>
+
+        <div class="section" id="experience-section">
+            <h2>Work Experience</h2>
+            <p>Freelancing with clint on linkedin (2024 - Present)</p>
+        </div>
+
+        <button onclick="toggleSection('skills-section')">Toggle Skills Section</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
